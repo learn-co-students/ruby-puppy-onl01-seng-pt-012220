@@ -19,9 +19,4 @@ class Dog
 		end
 	end
 	
-	private
-	
-	def print_all
-	  @@all.print
-	end
 end
