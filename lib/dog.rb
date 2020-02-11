@@ -1,14 +1,8 @@
 class Dog  
   attr_accessor :name
   attr_reader :breed 
+ 
   @@all = []
-  
-def self.all
-  @@all 
-  
-end
-
-  
   
   
 def initialize(name) 
@@ -17,12 +11,12 @@ def initialize(name)
   @@all << self
 end
 
-def self.clear_all
-  @@all = []
+def self.all
+  @@all 
 
+  end
 end
 
-end
 
 
 
